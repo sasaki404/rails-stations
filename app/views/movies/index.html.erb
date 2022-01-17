@@ -1,0 +1,6 @@
+<% @movies.each do |movie| %>
+  <div>
+    <p><%= movie["name"] %></p>
+    <%= image_tag movie["image_url"] %>
+  </div>
+<% end %>
